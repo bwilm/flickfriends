@@ -1,0 +1,44 @@
+PODS:
+  - Alamofire (4.7.3)
+  - AlamofireObjectMapper (5.1.0):
+    - Alamofire (~> 4.1)
+    - ObjectMapper (~> 3.3)
+  - ChameleonFramework/Default (2.1.0)
+  - ChameleonFramework/Swift (2.1.0):
+    - ChameleonFramework/Default
+  - ObjectMapper (3.3.0)
+  - SwiftyJSON (4.1.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - AlamofireObjectMapper (~> 5.0)
+  - ChameleonFramework/Swift (from `https://github.com/ViccAlexander/Chameleon.git`, branch `wip/swift4`)
+  - SwiftyJSON (~> 4.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - AlamofireObjectMapper
+    - ObjectMapper
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  ChameleonFramework:
+    :branch: wip/swift4
+    :git: https://github.com/ViccAlexander/Chameleon.git
+
+CHECKOUT OPTIONS:
+  ChameleonFramework:
+    :commit: db432ca1b1a3d8f83ee1f881208c0c960a325e73
+    :git: https://github.com/ViccAlexander/Chameleon.git
+
+SPEC CHECKSUMS:
+  Alamofire: d09fb306e5baab8d87504ecea12f249079caafb8
+  AlamofireObjectMapper: 687a13a5f0491090b38785502b446ffd5835aa73
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  ObjectMapper: d81d694fc2e14abef630cd44e7dadc2868597e91
+  SwiftyJSON: 57254fa011ebdbd8982b0601f7c2763b5cf13bf4
+
+PODFILE CHECKSUM: 6bdc62e376c522e9caf9852a6fce7a549829b9dc
+
+COCOAPODS: 1.5.0.beta.1
